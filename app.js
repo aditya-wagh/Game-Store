@@ -10,7 +10,7 @@ var routes = require('./routes/index');
 
 var app = express();
 
-// view engine setup
+
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));
 app.set('view engine', '.hbs');
 
